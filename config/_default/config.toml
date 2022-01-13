@@ -1,4 +1,4 @@
-baseURL = "https://hcjart123.netlify.com/"
+baseURL = "https://hugo-theme-shell2.netlify.com/"
 title = "Shell"
 # author = "Yukuro"
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
