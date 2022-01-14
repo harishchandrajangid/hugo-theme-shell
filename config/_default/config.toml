@@ -82,32 +82,6 @@ ignoreErrors = ["error-remote-getjson"]
     ["Go", "https://golang.org/"],
     ["Hugo", "/post/some-activity.md"],
     ["Docker", "/post/some-activity.md"],
-  folderName = "My_works"
-  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
-  folderName = "My_Education and Experiences"
-  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["My_Education","www.example.com"],
-    ["Experiences","www.example.com"],
-  folderName = "Contact_Information"
-  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["Address","www.example.com"],
-    ["Mob_Number","www.example.com"],
-  folderName = "services"
-  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
   ]
 [module]
   [module.hugoVersion]
