@@ -36,8 +36,8 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "jane"
-  pcName = "laptop"
+  userName = "harish"
+  pcName = "harish@laptop"
   workDir = "mydir"
   profile = "profile.txt"
 
@@ -63,7 +63,7 @@ ignoreErrors = ["error-remote-getjson"]
   # activityDelay = 5 : deprecated
 
   description = """
-  Hi I am Jane Doe!
+  My name is harish!
   Nice to meet you!
   
   """
@@ -83,7 +83,45 @@ ignoreErrors = ["error-remote-getjson"]
     ["Hugo", "/post/some-activity.md"],
     ["Docker", "/post/some-activity.md"],
   ]
+  [Params.Tree]
+  use = true
+  folderName = "My_works"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["C/C++", "https://www.example.com/"],
+    ["Python", "https://www.example.com/"],
+    ["Go", "https://golang.org/"],
+    ["Hugo", "/post/some-activity.md"],
+    ["Docker", "/post/some-activity.md"],
+  ]
+  [Params.Tree]
+  use = true
+  folderName = "My_Education and Experiences"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["My_Education","www.example.com"],
+    ["Experiences","www.example.com"],
+  ]
+    [Params.Tree]
+  use = true
+  folderName = "Contact_Information"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["Address","www.example.com"],
+    ["Mob_Number","www.example.com"],
+  ]
+  [Params.Tree]
+  use = true
+  folderName = "services"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["C/C++", "https://www.example.com/"],
+    ["Python", "https://www.example.com/"],
+    ["Go", "https://golang.org/"],
+    ["Hugo", "/post/some-activity.md"],
+    ["Docker", "/post/some-activity.md"],
 
+  ]
 [module]
   [module.hugoVersion]
     extended = true
