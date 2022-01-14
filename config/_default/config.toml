@@ -82,9 +82,6 @@ ignoreErrors = ["error-remote-getjson"]
     ["Go", "https://golang.org/"],
     ["Hugo", "/post/some-activity.md"],
     ["Docker", "/post/some-activity.md"],
-  ]
-  [Params.Tree]
-  use = true
   folderName = "My_works"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
@@ -93,25 +90,16 @@ ignoreErrors = ["error-remote-getjson"]
     ["Go", "https://golang.org/"],
     ["Hugo", "/post/some-activity.md"],
     ["Docker", "/post/some-activity.md"],
-  ]
-  [Params.Tree]
-  use = true
   folderName = "My_Education and Experiences"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["My_Education","www.example.com"],
     ["Experiences","www.example.com"],
-  ]
-    [Params.Tree]
-  use = true
   folderName = "Contact_Information"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["Address","www.example.com"],
     ["Mob_Number","www.example.com"],
-  ]
-  [Params.Tree]
-  use = true
   folderName = "services"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
@@ -120,7 +108,6 @@ ignoreErrors = ["error-remote-getjson"]
     ["Go", "https://golang.org/"],
     ["Hugo", "/post/some-activity.md"],
     ["Docker", "/post/some-activity.md"],
-
   ]
 [module]
   [module.hugoVersion]
