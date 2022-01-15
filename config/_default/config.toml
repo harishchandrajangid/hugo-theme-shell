@@ -82,7 +82,7 @@ ignoreErrors = ["error-remote-getjson"]
     ["Go", "https://golang.org/"],
     ["Hugo", "/post/some-activity.md"],
     ["Docker", "/post/some-activity.md"],
-  ],
+  ]
   [Params.Tree]
   use = true
   folderName = "my_works"
