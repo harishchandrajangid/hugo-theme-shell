@@ -82,7 +82,19 @@ ignoreErrors = ["error-remote-getjson"]
     ["Go", "https://golang.org/"],
     ["Hugo", "/post/some-activity.md"],
     ["Docker", "/post/some-activity.md"],
+  ],
+  [Params.Tree]
+  use = true
+  folderName = "my_works"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["task1", "task1-detasils"],
+    ["task2", "task2-detasils"],
+    ["task3", "task3-detasils"],
+    ["task4", "task4-detasils"],
+    ["task5", "task5-detasils"],
   ]
+
 [module]
   [module.hugoVersion]
     extended = true
